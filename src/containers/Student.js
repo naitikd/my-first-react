@@ -20,6 +20,7 @@ class Student extends Component {
     render() {
         return (
             <div>
+                <h1>Student</h1>
               <h1>My name is : {this.state.name}</h1>
               <h1>Roll.No : {this.props.data.RollNo}</h1>
               <button onClick={this.changename}>Change</button>  
