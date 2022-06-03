@@ -9,7 +9,7 @@ class Student extends Component {
             name:"Naitik",
             country:"India"
         }
-    }
+    } 
 
     changename = () => {
         this.setState ({

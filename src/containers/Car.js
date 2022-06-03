@@ -19,6 +19,7 @@ class Car extends Component {
     render() {
         return (
             <div>
+                <h1>Cars</h1>
                <h2>{this.state.modal}</h2>
                <button onClick={this.changemodal}>Change modal</button> 
             </div>
