@@ -21,6 +21,7 @@ class Country extends Component {
     render() {
         return (
             <div>
+                <p>Cars</p>
                 <p>{this.state.countryName}</p>
                 <button onClick={() => this.changeCountry()}>Change Country</button>
             </div>
